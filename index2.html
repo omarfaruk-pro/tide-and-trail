@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/magnific.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header_content">
+                <div class="header_left">
+                    <p class="logo_text">Tide & Trail Co.</p>
+                </div>
+                <div class="header_right_outer">
+                    <div class="header_right" id="header_right">
+                        <nav class="main_menu">
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Reviews</a></li>
+                                <li><a href="#">Gallery</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header_right_inner">
+                            <ul>
+                                <li><a href="#">
+                                        <img src="./assets/icons/google.svg" alt="">
+                                        <img src="./assets/icons/google-black.svg" alt="">
+                                    </a></li>
+                                <li><a href="#">
+                                        <img src="./assets/icons/tripadvisor.svg" alt="">
+                                        <img src="./assets/icons/tripadvisor-black.svg" alt="">
+                                    </a></li>
+                                <li><a href="#">
+                                        <img src="./assets/icons/yelp.svg" alt="">
+                                        <img src="./assets/icons/yelp-black.svg" alt="">
+                                    </a></li>
+                                <li><a href="#">
+                                        <img src="./assets/icons/facebook.svg" alt="">
+                                        <img src="./assets/icons/facebook-black.svg" alt="">
+                                    </a></li>
+                            </ul>
+                            <div class="header_book_wrap">
+                                <p class="via_text"><span>via</span> <img src="./assets/icons/fareharbor-white-1.svg"
+                                        alt=""></p>
+                                <button onclick="openModal()" class="primary_btn">Book my trip </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" hamburger_wrap">
+                        <ul class="header_social">
+                            <li><a href="#">
+                                    <img src="./assets/icons/google.svg" alt="">
+                                    <img src="./assets/icons/google-black.svg" alt="">
+                                </a></li>
+                            <li><a href="#">
+                                    <img src="./assets/icons/tripadvisor.svg" alt="">
+                                    <img src="./assets/icons/tripadvisor-black.svg" alt="">
+                                </a></li>
+                            <li><a href="#">
+                                    <img src="./assets/icons/yelp.svg" alt="">
+                                    <img src="./assets/icons/yelp-black.svg" alt="">
+                                </a></li>
+                            <li><a href="#">
+                                    <img src="./assets/icons/facebook.svg" alt="">
+                                    <img src="./assets/icons/facebook-black.svg" alt="">
+                                </a></li>
+                        </ul>
+                        <div class="hamburger" id="hamburger">
+                            <button>
+                                <img src="./assets/icons/burger-white.svg" alt="">
+                                <img class="close" src="./assets/icons/close.svg" alt="">
+                                <img src="./assets/icons/burger.svg" alt="">
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- banner -->
+        <section class="banner_sec">
+            <div class="container">
+                <div class="banner_content">
+                    <div>
+                        <h1>Escape the noise. Paddle into peace</h1>
+                        <p>Guided paddleboarding and camping trips through Florida’s quiet, wild places.</p>
+                    </div>
+                    <div>
+                        <div class="book_wrap design_2">
+                            <button onclick="openModal()" class="primary_btn">Book my trip</button>
+                            <p class="via_text"><span>via</span> <img src="./assets/icons/fareharbor-white.svg" alt="">
+                            </p>
+                        </div>
+                        <div>
+                            <div class="rating">
+                                <img src="./assets/icons/star-yellow.svg" alt="">
+                                <img src="./assets/icons/star-yellow.svg" alt="">
+                                <img src="./assets/icons/star-yellow.svg" alt="">
+                                <img src="./assets/icons/star-yellow.svg" alt="">
+                                <img src="./assets/icons/star-yellow.svg" alt="">
+                            </div>
+                            <p class="rating_text"><span>Rated 4.9/5</span> by fellow travelers just like you</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- identity -->
+        <section class="identity_sec py-80">
+            <div class="container">
+                <div class="identity_content">
+                    <div>
+                        <p class="identity_text">“Over the past few years, I've helped over 120 people explore the wild
+                            beauty of this state —
+                            many for the first time.”</p>
+                        <div class="for_mobile">
+                            <p class="certified_text">A certified paddleboarding instructor who guides people on outdoor
+                                adventures in Florida.</p>
+                            <div class="certified_icons">
+                                <img src="./assets/icons/aca.svg" alt="">
+                                <img src="./assets/icons/leave-no-trace.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="identity_video">
+                            <img src="./assets/images/yulia.jpg" alt="">
+                            <a href="https://www.youtube.com/watch?v=q_yXzk47AO0" class="play_icon identity_popup"><img
+                                    src="./assets/icons/play.svg" alt=""></a>
+                            <div class="name_box">
+                                <p>Hey, I’m Yulia</p>
+                                <img src="./assets/icons/shape-1.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="for_desktop">
+                        <p class="certified_text">A certified paddleboarding instructor who guides people on outdoor
+                            adventures in Florida.</p>
+                        <div class="certified_icons">
+                            <img src="./assets/icons/aca.svg" alt="">
+                            <img src="./assets/icons/leave-no-trace.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="identity_content_2">
+                    <p class="subtitle">In Good Hands</p>
+                    <h2>Hey, I’m Yulia</h2>
+                    <p class="certified_text">A certified paddleboarding instructor who guides people on outdoor
+                        adventures in Florida.</p>
+                    <div class="identity_video">
+                        <img src="./assets/images/yulia.jpg" alt="">
+                        <a href="https://www.youtube.com/watch?v=q_yXzk47AO0" class="play_icon identity_popup"><img
+                                src="./assets/icons/play.svg" alt=""></a>
+                    </div>
+                    <p class="identity_text">“Over the past few years, I've helped over 120 people explore the wild
+                        beauty of this state — many for the first time.”</p>
+                    <div class="certified_icons">
+                        <img src="./assets/icons/aca.svg" alt="">
+                        <img src="./assets/icons/leave-no-trace.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- reviews -->
+        <section class="reviews_sec py-80">
+            <div class="container">
+                <div class="review_title">
+                    <div class="rating">
+                        <img src="./assets/icons/star-orange.svg" alt="">
+                        <img src="./assets/icons/star-orange.svg" alt="">
+                        <img src="./assets/icons/star-orange.svg" alt="">
+                        <img src="./assets/icons/star-orange.svg" alt="">
+                        <img src="./assets/icons/star-orange.svg" alt="">
+                    </div>
+                    <h2>“We came for the adventure, but stayed for the peace it gave us.”</h2>
+                    <p>Lucas Bell</p>
+                </div>
+                <div class="review_slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="review_item">
+                                <img src="./assets/images/review-placeholder-03.jpg" alt="">
+                                <p>It was the reset I didn’t know I needed ...</p>
+                                <a href="#" class="play_icon"><img src="./assets/icons/play.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review_item">
+                                <img src="./assets/images/review-placeholder-02.jpg" alt="">
+                                <p>One of the best weekends of my life ...</p>
+                                <a href="#" class="play_icon"><img src="./assets/icons/play.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review_item">
+                                <img src="./assets/images/review-placeholder-02.jpg" alt="">
+                                <p>One of the best weekends of my life ...</p>
+                                <a href="#" class="play_icon"><img src="./assets/icons/play.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review_item">
+                                <img src="./assets/images/review-placeholder-01.jpg" alt="">
+                                <p>Just you, the board, and the silence ...</p>
+                                <a href="#" class="play_icon"><img src="./assets/icons/play.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review_item">
+                                <img src="./assets/images/review-placeholder-01.jpg" alt="">
+                                <p>Just you, the board, and the silence ...</p>
+                                <a href="#" class="play_icon"><img src="./assets/icons/play.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review_item">
+                                <img src="./assets/images/review-placeholder-01.jpg" alt="">
+                                <p>Just you, the board, and the silence ...</p>
+                                <a href="#" class="play_icon"><img src="./assets/icons/play.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="review_grid">
+                    <div>
+                        <div class="review_content">
+                            <img src="./assets/icons/tripadvisor-color.svg" alt="">
+                            <div>
+                                <div class="review_rating">
+                                    <span>4.8</span>
+                                    <div class="rating">
+                                        <img src="./assets/icons/circle-rating.svg" alt="">
+                                        <img src="./assets/icons/circle-rating.svg" alt="">
+                                        <img src="./assets/icons/circle-rating.svg" alt="">
+                                        <img src="./assets/icons/circle-rating.svg" alt="">
+                                        <img src="./assets/icons/circle-rating.svg" alt="">
+                                    </div>
+                                </div>
+                                <a href="#">See all review</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="review_content">
+                            <img src="./assets/icons/google-color.svg" alt="">
+                            <div>
+                                <div class="review_rating">
+                                    <span>4.9</span>
+                                    <div class="rating">
+                                        <img src="./assets/icons/star-orange.svg" alt="">
+                                        <img src="./assets/icons/star-orange.svg" alt="">
+                                        <img src="./assets/icons/star-orange.svg" alt="">
+                                        <img src="./assets/icons/star-orange.svg" alt="">
+                                        <img src="./assets/icons/star-orange.svg" alt="">
+                                    </div>
+                                </div>
+                                <a href="#">See all review</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="review_content">
+                            <img src="./assets/icons/facebook-color.svg" alt="">
+                            <div>
+                                <div class="review_rating">
+                                    <span>5.0</span>
+                                    <div class="rating">
+                                        <img src="./assets/icons/star-orange.svg" alt="">
+                                        <img src="./assets/icons/star-orange.svg" alt="">
+                                        <img src="./assets/icons/star-orange.svg" alt="">
+                                        <img src="./assets/icons/star-orange.svg" alt="">
+                                        <img src="./assets/icons/star-orange.svg" alt="">
+                                    </div>
+                                </div>
+                                <a href="#">See all review</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="review_content">
+                            <img src="./assets/icons/yelp-color.svg" alt="">
+                            <div>
+                                <div class="review_rating">
+                                    <span>4.9</span>
+                                    <div class="rating">
+                                        <img src="./assets/icons/star-red.svg" alt="">
+                                        <img src="./assets/icons/star-red.svg" alt="">
+                                        <img src="./assets/icons/star-red.svg" alt="">
+                                        <img src="./assets/icons/star-red.svg" alt="">
+                                        <img src="./assets/icons/star-red.svg" alt="">
+                                    </div>
+                                </div>
+                                <a href="#">See all review</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="review_rating_text"><span>Rated 4.9/5</span> based on 120+ happy adventurers</p>
+            </div>
+        </section>
+
+        <!-- gallery -->
+        <section class="gallery_sec py-80">
+            <div class="container">
+                <div class="gallery_title">
+                    <p>gallery</p>
+                    <h2>See what peace looks like</h2>
+                </div>
+
+                <div class="gallery_slider">
+                    <div class="carousel-field">
+                        <div class="marquee-carousel" data-speed="8000">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="./assets/images/gallery-01.jpg" class="content lightshoot">
+                                        <img src="./assets/images/gallery-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="./assets/images/gallery-02.jpg" class="content lightshoot">
+                                        <img src="./assets/images/gallery-02.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="./assets/images/gallery-03.jpg" class="content lightshoot">
+                                        <img src="./assets/images/gallery-03.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="./assets/images/gallery-04.jpg" class="content lightshoot">
+                                        <img src="./assets/images/gallery-04.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="./assets/images/gallery-02.jpg" class="content lightshoot">
+                                        <img src="./assets/images/gallery-02.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="./assets/images/gallery-03.jpg" class="content lightshoot">
+                                        <img src="./assets/images/gallery-03.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reverse-marquee-carousel" data-speed="8000">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="./assets/images/gallery-05.jpg" class="content lightshoot">
+                                        <img src="./assets/images/gallery-05.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="./assets/images/gallery-06.jpg" class="content lightshoot">
+                                        <img src="./assets/images/gallery-06.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="./assets/images/gallery-07.jpg" class="content lightshoot">
+                                        <img src="./assets/images/gallery-07.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="./assets/images/gallery-08.jpg" class="content lightshoot">
+                                        <img src="./assets/images/gallery-08.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="./assets/images/gallery-09.jpg" class="content lightshoot">
+                                        <img src="./assets/images/gallery-09.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="./assets/images/gallery-07.jpg" class="content lightshoot">
+                                        <img src="./assets/images/gallery-07.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery_grid">
+                    <div>
+                        <div class="gallery_item">
+                            <a href="./assets/images/gallery-08.jpg" class="content lightshoot">
+                                <img src="./assets/images/gallery-08.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery_item">
+                            <a href="./assets/images/gallery-04.jpg" class="content lightshoot">
+                                <img src="./assets/images/gallery-04.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery_item">
+                            <a href="./assets/images/gallery-03.jpg" class="content lightshoot">
+                                <img src="./assets/images/gallery-03.jpg" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="gallery_item">
+                            <a href="./assets/images/gallery-05.jpg" class="content lightshoot">
+                                <img src="./assets/images/gallery-05.jpg" alt="">
+                            </a>
+                        </div>
+
+
+                        <div class="gallery_item">
+                            <a href="./assets/images/gallery-06.jpg" class="content lightshoot">
+                                <img src="./assets/images/gallery-06.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="gallery_item">
+                            <a href="./assets/images/gallery-07.jpg" class="content lightshoot">
+                                <img src="./assets/images/gallery-07.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery_item">
+                            <a href="./assets/images/gallery-01.jpg" class="content lightshoot">
+                                <img src="./assets/images/gallery-01.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- booking -->
+        <section class="booking_sec py-80">
+            <div class="container">
+                <div class="booking_grid">
+                    <div class="booking_img">
+                        <img class="for_desktop" src="./assets/images/lets-paddle.jpg" alt="">
+                        <img class="for_mobile" src="./assets/images/lets-paddle-mobile.jpg" alt="">
+                    </div>
+                    <div class="booking_card_wrap">
+                        <div class="booking_card">
+                            <p class="booking_text">Booking</p>
+                            <h2>Your peaceful escape starts here</h2>
+                            <ul>
+                                <li><img src="./assets/icons/check-blue.svg" alt=""> 2-Day Escape You’ll Remember</li>
+                                <li><img src="./assets/icons/check-blue.svg" alt=""> Peaceful Campsite Under the Stars
+                                </li>
+                                <li><img src="./assets/icons/check-blue.svg" alt=""> Perfect for First-Timers</li>
+                            </ul>
+                            <div>
+                                <button type="button" onclick="openModal()" href="#" class="secondary_btn">Book my
+                                    trip</button>
+                                <p class="via_text"><span>via</span> <img src="./assets/icons/fareharbor-white-1.svg"
+                                        alt=""></p>
+                            </div>
+
+                            <div class="rating">
+                                <img src="./assets/icons/star-orange.svg" alt="">
+                                <img src="./assets/icons/star-orange.svg" alt="">
+                                <img src="./assets/icons/star-orange.svg" alt="">
+                                <img src="./assets/icons/star-orange.svg" alt="">
+                                <img src="./assets/icons/star-orange.svg" alt="">
+                            </div>
+                            <p class="review_rating_text">
+                                <span>Rated 4.9/5</span> by fellow travelers just like you
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking_2">
+                    <div>
+                        <p>Booking</p>
+                        <h2>Your peaceful escape starts here</h2>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><img src="./assets/icons/check-yellow.svg" alt=""> 2-Day Escape You’ll Remember</li>
+                            <li><img src="./assets/icons/check-yellow.svg" alt=""> Peaceful Campsite Under the Stars
+                            </li>
+                            <li><img src="./assets/icons/check-yellow.svg" alt=""> Perfect for First-Timers</li>
+                        </ul>
+                        <div class="btn_wrap design_2">
+                            <button onclick="openModal()" class="primary_btn">Book my trip</button>
+                            <p class="via_text">via <img src="./assets/icons/fareharbor-white.svg" alt=""></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="book_wrap_fixed design-2" id="book_wrap_fixed">
+            <button onclick="openModal()" class="primary_btn">Book my trip</button>
+            <p class="via_text"><span>via</span> <img src="./assets/icons/fareharbor-white.svg" alt=""></p>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <p class="footer_logo_text">Tide & Trail Co.</p>
+            <ul class="footer_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">All adventures</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="footer_social">
+                <li><a href="#"><img src="./assets/icons/google-black.svg" alt=""></a></li>
+                <li><a href="#"><img src="./assets/icons/tripadvisor-black.svg" alt=""></a></li>
+                <li><a href="#"><img src="./assets/icons/yelp-black.svg" alt=""></a></li>
+                <li><a href="#"><img src="./assets/icons/facebook-black.svg" alt=""></a></li>
+            </ul>
+            <ul class="privacy">
+                <li><a href="#">Terms</a></li>
+                <li>•</li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+            <p class="copyright">With love Tide & Trail Co., Florida</p>
+        </div>
+    </footer>
+
+    <!-- booking modal -->
+    <div class="modal booking_modal" id="booking_modal">
+        <div class="modal_wrap">
+            <div class="modal_dialog">
+                <button type="button" onclick="closeModal()" class="modal_close"><img src="./assets/icons/close.svg"
+                        alt=""></button>
+                <div class="modal_body_wrap">
+                    <div class="modal_body">
+                        <p>Hold My Spot</p>
+                        <h2>Let’s Make This Happen</h2>
+                        <form action="#" class="booking_form" id="booking_form">
+                            <div>
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" placeholder="Name">
+                            </div>
+                            <div>
+                                <label for="phone">phone</label>
+                                <input type="number" name="phone" id="phone" placeholder="Phone">
+                            </div>
+                            <div>
+                                <label for="email">email</label>
+                                <input type="email" name="email" id="email" placeholder="Email">
+                            </div>
+                            <div>
+                                <label for="people">How many people?</label>
+                                <div class="people_input">
+                                    <button id="decrease" disabled type="button">-</button>
+                                    <input type="number" name="people" id="people" value="1">
+                                    <button id="increase" type="button">+</button>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="message">Anything you want us to know?</label>
+                                <textarea name="message" id="message" placeholder="Additional info"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" id="booking_submit" class="secondary_btn">Hold my spot</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal_body_for_thank_you active">
+                    <img src="./assets/icons/check-black.svg" alt="">
+                    <h2>Thanks for <br> reaching out!</h2>
+                    <p>We’ve got your details and we’ll be in touch soon to help you plan your adventure.</p>
+                    <h6>Get ready for fresh air, paddle time, and peaceful views 🌿 <img
+                            src="./assets/icons/shape-2.svg" alt=""></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- all js  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/magnific.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
