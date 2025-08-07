@@ -67,8 +67,6 @@ The webpage highlights:
 ```bash
 # Example
 git clone https://github.com/omarfaruk-pro/tide-and-trail.git
-cd tide-paddle-web
-open index.html
 ```
 
 ## ✨ Customization Tips
