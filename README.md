@@ -66,7 +66,7 @@ The webpage highlights:
 
 ```bash
 # Example
-git clone https://github.com/your-repo/tide-paddle-web.git
+git clone https://github.com/omarfaruk-pro/tide-and-trail.git
 cd tide-paddle-web
 open index.html
 ```
